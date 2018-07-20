@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "rm lambda.zip; zip -r lambda.zip index.js node_modules/"
+  },
   "dependencies": {
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
