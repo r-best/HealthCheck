@@ -19,3 +19,6 @@ Run the following commands and upload the resulting `lambda.zip` to the Lambda
 npm install --prod
 npm run build
 ```
+## Timed Executions
+
+A CloudWatch rule can be used to invoke the lambda with a cron job you define, allowing you to routinely check the status of your websites without any intervention.
